@@ -137,4 +137,20 @@ git push origin  --all
 
 git push tags 
 
+see all the changes in the repository So we'll see all the branches.We can select our branch VP.Our data in a repository is updated.And now it's time to build artifact from this source code
 
+###  Code build
+
+So we are going to go to code build service so we can access the code build service here itself.You see that build code build andwe'll create a project over hereSo this code build job or the project will be team as what we do in Jenkins.When we create a job we fetch the code buildthe code test it notify so here all the informationyou can provide and about the build we provide theinformation in a YAML format, it's called build spec.So here you see it says it'sfully managed continuous integration service that compile source code, runs, test and produce software packages that are ready to deploy.
+
+put the build spec file  at the time of create a code build 
+
+
+###  Build, Deploy & Code Pipeline
+
+before we integrate all the things together,the next, this is the last phase.We are going to integrate all the things together now.But before we do that, let's test our build job.Whether it works, it generates the artifact or not.So click on Start Build.It's going to read our build specfile and execute the build job.
+
+##### Code pipeline .
+ Code Pipeline is a continuous integration and continuous delivery service for fast and reliable application and infrastructure update.Basically it disconnects your source code and build job and all the jobs together.
+
+Create a pipeline for the project after createing pipeline we are sucessfully complted our project 
