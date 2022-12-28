@@ -129,7 +129,7 @@ git fetch --tags
 
 git remote rm origin
 
-git  remote add origin
+git  remote add origin codecommit URL
 
 cat  .git/config
 
